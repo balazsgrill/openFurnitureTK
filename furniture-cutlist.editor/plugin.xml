@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="furniture.presentation.FurnitureModelWizardID"
+            name="%_UI_FurnitureModelWizard_label"
+            class="furniture.presentation.FurnitureModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/FurnitureModelFile.gif">
+         <description>%_UI_FurnitureModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="furniture.presentation.FurnitureEditorID"
+            name="%_UI_FurnitureEditor_label"
+            icon="icons/full/obj16/FurnitureModelFile.gif"
+            extensions="furniture"
+            class="furniture.presentation.FurnitureEditor"
+            contributorClass="furniture.presentation.FurnitureActionBarContributor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:furniture.presentation.FurnitureEditorID?after=additions">
+         <command
+               commandId="furniture-cutlist.editor.command1"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="furniture.presentation.GenerateReportHandler"
+            id="furniture-cutlist.editor.command1"
+            name="Generate report">
+      </command>
+   </extension>
+
+</plugin>
