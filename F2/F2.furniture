@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<furniture:CutList xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:furniture="http://furniture/1.0" name="F2">
+  <panels xsi:type="furniture:RectangularPanel" name="F2-1" copies="2" width="163.6" height="37.0" top="ABS" bottom="Normal" left="ABS" right="ABS">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F2-2" width="200.0" height="10.0" top="Normal" bottom="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F2-3" description="" width="200.0" height="25.2" bottom="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:PathPanel" name="F2-4" copies="2">
+    <type href="white.furniture#/"/>
+    <edges xsi:type="furniture:XEdge" length="70.0" occlusion="Normal"/>
+    <edges xsi:type="furniture:YEdge" length="22.0" occlusion="Normal"/>
+    <edges xsi:type="furniture:XEdge" length="130.0" occlusion="Normal"/>
+    <edges xsi:type="furniture:YEdge" length="15.0"/>
+    <edges xsi:type="furniture:XEdge" length="-200.0" occlusion="ABS"/>
+    <edges xsi:type="furniture:YEdge" length="-37.0"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F3-1" description="" width="163.6" height="98.2" bottom="Normal" left="ABS" right="ABS">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F3-2" width="163.6" height="30.0" top="ABS" bottom="ABS" left="ABS" right="ABS">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F3-3" copies="2" description="" width="98.2" height="30.0" top="ABS" right="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F3-4" copies="2" width="98.2" height="28.2" top="Normal" right="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F3-5" copies="6" width="26.4" height="30.0" top="ABS">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F4-1" width="129.5" height="21.5" top="Normal" bottom="Normal" left="Normal" right="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F4-2" width="124.5" height="21.5" top="Normal" bottom="Normal" left="Normal" right="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F4-3" width="124.5" height="74.9">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F4-4" copies="2" width="74.9" height="15.7" top="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F4-5" copies="2" width="74.9" height="4.8" top="Normal" bottom="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F4-6" copies="2" description="" width="74.9" height="4.0" bottom="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+</furniture:CutList>
