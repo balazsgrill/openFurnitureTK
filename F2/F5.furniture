@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <furniture:CutList xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:furniture="http://furniture/1.0" name="F5">
-  <panels xsi:type="furniture:RectangularPanel" name="F5-1" width="100.0" height="37.2" top="Normal" bottom="Normal" left="Normal" right="Normal">
+  <panels xsi:type="furniture:RectangularPanel" name="F5-1" description="" width="102.0" height="39.0" top="Normal" bottom="Normal" left="Normal" right="Normal">
     <type href="white.furniture#/"/>
   </panels>
-  <panels xsi:type="furniture:PathPanel" name="F5-2">
+  <panels xsi:type="furniture:RectangularPanel" name="F5-2" width="102.0" height="37.0" top="Normal" bottom="Normal" left="Normal" right="Normal">
     <type href="white.furniture#/"/>
-    <edges xsi:type="furniture:XEdge" length="100.0" occlusion="Normal"/>
-    <edges xsi:type="furniture:YEdge" length="19.4" occlusion="Normal"/>
-    <edges xsi:type="furniture:XEdge" length="-9.8" occlusion="Normal"/>
-    <edges xsi:type="furniture:YEdge" length="19.6" occlusion="Normal"/>
-    <edges xsi:type="furniture:XEdge" length="-90.2" occlusion="Normal"/>
-    <edges xsi:type="furniture:YEdge" length="-39.0" occlusion="Normal"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F5-3" width="102.0" height="49.0" left="Normal" right="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F5-4" copies="2" width="37.0" height="49.0" right="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F5-5" copies="2" width="49.3" height="4.0" bottom="Normal">
+    <type href="white.furniture#/"/>
+  </panels>
+  <panels xsi:type="furniture:RectangularPanel" name="F5-6" copies="2" description="" width="50.8" height="50.0" top="Normal" bottom="Normal" left="Normal" right="Normal">
+    <type href="white.furniture#/"/>
   </panels>
 </furniture:CutList>
